@@ -15,11 +15,13 @@ to linhas_horizontais
 end
 
 to linhas_verticais
-	repeat 2 [
+	repeat 12 [
 		fd 150
 		bk 150
 		rt 90
+		pu
 		fd 50
+		pd
 		lt 90
 	]
 end
