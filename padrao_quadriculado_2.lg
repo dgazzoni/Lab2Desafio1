@@ -20,6 +20,11 @@ to linhas_verticais
 	rt 90
 	fd 50
 	lt 90
+	fd 150
+	bk 150
+	rt 90
+	fd 50
+	lt 90
 end
 
 to padrao
