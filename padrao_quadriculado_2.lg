@@ -14,9 +14,14 @@ to linhas_horizontais
 	pd
 end
 
+to linhas_verticais
+	fd 150
+end
+
 to padrao
 	rt 90
 	linhas_horizontais
+	linhas_verticais
 end
 
 padrao
