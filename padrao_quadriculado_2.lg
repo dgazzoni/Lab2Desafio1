@@ -1,14 +1,15 @@
 to padrao
 	rt 90
-	fd 550
-	bk 550
-	pu
-	lt 90
-	fd 50
-	rt 90
-	pd
-	fd 550
-	bk 550
+
+	repeat 2 [
+		fd 550
+		bk 550
+		pu
+		lt 90
+		fd 50
+		rt 90
+		pd
+	]
 end
 
 padrao
