@@ -10,14 +10,14 @@ to linhas_horizontais
 	]
 	pu
 	lt 90
-	bk 200
+	bk 4*50
 	pd
 end
 
 to linhas_verticais
 	repeat 12 [
-		fd 150
-		bk 150
+		fd (4-1)*50
+		bk (4-1)*50
 		rt 90
 		pu
 		fd 50
