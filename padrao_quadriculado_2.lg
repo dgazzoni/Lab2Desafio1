@@ -1,6 +1,4 @@
-to padrao
-	rt 90
-
+to linhas_horizontais
 	repeat 4 [
 		fd 550
 		bk 550
@@ -10,6 +8,11 @@ to padrao
 		rt 90
 		pd
 	]
+end
+
+to padrao
+	rt 90
+	linhas_horizontais
 end
 
 padrao
