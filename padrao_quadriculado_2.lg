@@ -8,6 +8,10 @@ to linhas_horizontais
 		rt 90
 		pd
 	]
+	pu
+	lt 90
+	bk 200
+	pd
 end
 
 to padrao
