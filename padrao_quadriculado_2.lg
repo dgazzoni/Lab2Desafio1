@@ -1,7 +1,7 @@
 to linhas_horizontais
 	repeat 4 [
-		fd 550
-		bk 550
+		fd 50*(12-1)
+		bk 50*(12-1)
 		pu
 		lt 90
 		fd 50
@@ -16,8 +16,8 @@ end
 
 to linhas_verticais
 	repeat 12 [
-		fd (4-1)*50
-		bk (4-1)*50
+		fd 50*(4-1)
+		bk 50*(4-1)
 		rt 90
 		pu
 		fd 50
@@ -26,7 +26,7 @@ to linhas_verticais
 	]
 	pu
 	lt 90
-	fd 600
+	fd 50*12
 	rt 90
 	pd
 end
