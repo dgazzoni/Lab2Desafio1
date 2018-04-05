@@ -1,0 +1,6 @@
+to padrao
+	rt 90
+	fd 550
+end
+
+padrao
