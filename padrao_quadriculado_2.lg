@@ -31,10 +31,10 @@ to linhas_verticais :lh :lv
 	pd
 end
 
-to padrao
+to padrao :lh :lv
 	rt 90
-	linhas_horizontais 5 8
-	linhas_verticais 5 8
+	linhas_horizontais lh lv
+	linhas_verticais lh lv
 end
 
-padrao
+padrao 4 12
