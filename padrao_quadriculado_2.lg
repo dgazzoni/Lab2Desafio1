@@ -1,7 +1,7 @@
 to padrao
 	rt 90
 
-	repeat 2 [
+	repeat 4 [
 		fd 550
 		bk 550
 		pu
