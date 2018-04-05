@@ -1,5 +1,5 @@
-to linhas_horizontais
-	repeat 4 [
+to linhas_horizontais :lh
+	repeat lh [
 		fd 50*(12-1)
 		bk 50*(12-1)
 		pu
@@ -10,14 +10,14 @@ to linhas_horizontais
 	]
 	pu
 	lt 90
-	bk 4*50
+	bk 50*lh
 	pd
 end
 
-to linhas_verticais
+to linhas_verticais :lh
 	repeat 12 [
-		fd 50*(4-1)
-		bk 50*(4-1)
+		fd 50*(lh-1)
+		bk 50*(lh-1)
 		rt 90
 		pu
 		fd 50
@@ -33,8 +33,8 @@ end
 
 to padrao
 	rt 90
-	linhas_horizontais
-	linhas_verticais
+	linhas_horizontais 5
+	linhas_verticais 5
 end
 
 padrao
